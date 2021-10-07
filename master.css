@@ -1,0 +1,16 @@
+body {
+    animation: transitionIn 3s;
+}
+
+@keyframes transitionIn {
+    from{
+        background: black;
+        opacity: 0;
+        transform: rotateX(-10deg)
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
